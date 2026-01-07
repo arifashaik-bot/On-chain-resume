@@ -1,0 +1,58 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Verified, ArrowLeft } from "lucide-react";
+import { motion } from "framer-motion";
+
+export default function SignUpPage() {
+  return (
+    <div className="min-h-screen bg-background flex items-center justify-center p-6">
+      <div className="absolute top-8 left-8">
+        <Button variant="ghost" onClick={() => window.location.href = '/'}>
+          <ArrowLeft className="mr-2 w-4 h-4" /> Back
+        </Button>
+      </div>
+      
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="w-full max-w-md"
+      >
+        <Card className="border-2">
+          <CardHeader className="text-center">
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-primary-foreground shadow-lg shadow-primary/20">
+                <Verified className="w-8 h-8" />
+              </div>
+            </div>
+            <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
+            <CardDescription>Enter your details to get started with On-Chain Resume</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="space-y-2">
+              <label className="text-sm font-medium">Full Name</label>
+              <Input type="text" placeholder="John Doe" />
+            </div>
+            <div className="space-y-2">
+              <label className="text-sm font-medium">Email</label>
+              <Input type="email" placeholder="john@example.com" />
+            </div>
+            <div className="space-y-2">
+              <label className="text-sm font-medium">Password</label>
+              <Input type="password" placeholder="••••••••" />
+            </div>
+            <Button className="w-full h-11" size="lg">Sign Up</Button>
+          </CardContent>
+          <CardFooter className="flex flex-col gap-4">
+            <div className="text-sm text-center text-muted-foreground">
+              Already have an account?{" "}
+              <a href="/login" className="text-primary font-medium hover:underline">Log in</a>
+            </div>
+          </CardFooter>
+        </Card>
+      </motion.div>
+    </div>
+  );
+}
