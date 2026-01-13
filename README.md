@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# On-Chain Resume 🚀
 
-## Getting Started
+A decentralized platform for professional identities, allowing users to create, mint, and showcase their resumes as verifiable on-chain assets.
 
-First, run the development server:
+## 🌟 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Decentralized Identity**: Securely connect your wallet and manage your professional profile.
+- **On-Chain Resumes**: Mint your resume as a unique digital asset for immutable verification.
+- **Professional Showcase**: A sleek, modern gallery to display your skills and achievements.
+- **Employer Portal**: Dedicated space for recruiters to find and verify top talent.
+- **Responsive Design**: Optimized for all devices with a dark-themed, futuristic aesthetic.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15]
+- **Language**: [TypeScript]
+- **Styling**: [Tailwind CSS 4]
+- **UI Components**: [Shadcn UI]
+- **Animations**: [Framer Motion]
+- **Icons**: [Lucide React]
+- **Package Manager**: [Bun]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Live Demo
 
-## Learn More
+Check out the live version of the project here: (https://c-users-shaik-arifa-onedrive-deskto-sand.vercel.app/) 
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Bun](https://bun.sh/) (recommended) or Node.js (v18+)
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/on-chain-resume.git
+   cd on-chain-resume
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies**:
+   ```bash
+   bun install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   bun dev
+   ```
+
+4. **Open the app**:
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🏗️ Project Structure
+
+- `src/app`: Next.js App Router pages and layouts.
+- `src/components`: Reusable UI components built with Shadcn UI.
+- `src/hooks`: Custom React hooks for state and logic.
+- `src/lib`: Utility functions and library configurations.
+
+
