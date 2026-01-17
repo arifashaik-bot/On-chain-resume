@@ -35,7 +35,7 @@ Check out the live version of the project here: (https://c-users-shaik-arifa-one
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/on-chain-resume.git
-   cd on-chain-resume
+   cd On-chain-resume
    ```
 
 2. **Install dependencies**:
