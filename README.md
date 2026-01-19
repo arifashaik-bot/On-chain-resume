@@ -51,11 +51,6 @@ Check out the live version of the project here: (https://c-users-shaik-arifa-one
 4. **Open the app**:
    Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🏗️ Project Structure
 
-- `src/app`: Next.js App Router pages and layouts.
-- `src/components`: Reusable UI components built with Shadcn UI.
-- `src/hooks`: Custom React hooks for state and logic.
-- `src/lib`: Utility functions and library configurations.
 
 
